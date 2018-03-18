@@ -1,0 +1,8 @@
+<p>
+  demo works!
+</p>
+
+<p *ngFor="let ln of lstName" >
+  <hjapp-help [custInput]="ln" (myClick)="ShowAlert($event)"></hjapp-help>
+</p>
+
